@@ -39,7 +39,7 @@ public class Main {
 
         Map<String, Formatador> formatadores = new LinkedHashMap<>();
         formatadores.put("JSON", new JsonFormatador());
-        formatadores.put("XML", new XmlFomatador());
+        formatadores.put("XML", new XmlFormatador());
         formatadores.put("YAML", new YamlFormatador());
 
         formatadores.forEach((nome, formatador) -> {
